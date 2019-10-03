@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+
+                android:layout_width="409dp"
+                android:layout_height="273dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/vancouver" />
+
+                <TextClock
+                    android:id="@+id/textClock7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:format24Hour="MMM dd, yyyy k:mm"
+                    android:textColor="#FFA500"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic"
+                    android:timeZone="America/Los_Angles"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textView"
+                    app:layout_constraintTop_toTopOf="@id/imageView" />
+
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="60dp"
+                    android:background="#FFA500"
+                    android:text="Vancouver"
+                    android:textColor="#F00"
+
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textClock7"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="409dp"
+                android:layout_height="273dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/hangzhou" />
+
+                <TextClock
+                    android:id="@+id/textClock1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:format24Hour="MMM dd, yyyy k:mm"
+
+                    android:textColor="#FFA500"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic"
+                    android:timeZone="Asia/Shanghai"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textView"
+                    app:layout_constraintTop_toTopOf="@id/imageView"
+                    />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="286dp"
+                    android:layout_marginRight="286dp"
+                    android:background="#FFA500"
+                    android:text="Hangzhou"
+                    android:textColor="#F00"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textClock1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="409dp"
+                android:layout_height="273dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/london" />
+
+                <TextClock
+                    android:id="@+id/textClock2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:format24Hour="MMM dd, yyyy k:mm"
+                    android:textColor="#FFA500"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic"
+                    android:timeZone="Europe/London"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textView"
+                    app:layout_constraintTop_toTopOf="@id/imageView"
+                    />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="286dp"
+                    android:layout_marginRight="286dp"
+                    android:background="#FFA500"
+                    android:text="London"
+                    android:textColor="#F00"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textClock2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="409dp"
+                android:layout_height="273dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/newyork" />
+
+                <TextClock
+                    android:id="@+id/textClock3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:format24Hour="MMM dd, yyyy k:mm"
+                    android:textColor="#FFA500"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic"
+                    android:timeZone="America/New_York"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textView"
+                    app:layout_constraintTop_toTopOf="@id/imageView"
+                    />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="286dp"
+                    android:layout_marginRight="286dp"
+                    android:background="#FFA500"
+                    android:text="New York"
+                    android:textColor="#F00"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textClock3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="409dp"
+                android:layout_height="273dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/sydney" />
+
+                <TextClock
+                    android:id="@+id/textClock4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:format24Hour="MMM dd, yyyy k:mm"
+                    android:textColor="#FFA500"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic"
+                    android:timeZone="Australia/Sydney"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textView"
+                    app:layout_constraintTop_toTopOf="@id/imageView"
+                    />
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="286dp"
+                    android:layout_marginRight="286dp"
+                    android:background="#FFA500"
+                    android:text="Sydney"
+                    android:textColor="#F00"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/textClock4"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="12 Hour Format"
+        android:background="#FFA500"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24 Hour Format"
+        android:background="#FFA500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
