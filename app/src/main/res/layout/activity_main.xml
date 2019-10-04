@@ -34,11 +34,11 @@
                     android:id="@+id/textClock7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:format24Hour="MMM dd, yyyy k:mm"
+                    android:format24Hour="k:mm"
                     android:textColor="#FFA500"
                     android:textSize="36sp"
                     android:textStyle="bold|italic"
-                    android:timeZone="America/Los_Angles"
+                    android:timeZone="America/Los_Angeles"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/textView"
                     app:layout_constraintTop_toTopOf="@id/imageView" />
@@ -271,9 +271,10 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:text="12 Hour Format"
+        android:layout_marginLeft="410dp"
+        android:layout_marginTop="50dp"
         android:background="#FFA500"
+        android:text="12 Hour Format"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
